@@ -41,12 +41,12 @@ export function BakeryReel() {
   }, []);
 
   return (
-    <section id="reel" className="relative w-full py-14 md:py-20 overflow-hidden">
+    <section id="reel" className="relative w-full py-12 md:py-20 overflow-hidden">
       <div className="container mx-auto max-w-6xl px-4 text-center mb-10">
         <p className="text-xs font-bold uppercase tracking-[0.3em] text-[var(--color-brand-orange)] mb-3">
           Watch It Happen
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold font-serif tracking-tight text-[var(--color-brand-choco)]">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-serif tracking-tight text-[var(--color-brand-choco)]">
           <span aria-hidden className="text-[var(--color-brand-amber)]">✦</span> The Bakery, In Motion{" "}
           <span aria-hidden className="text-[var(--color-brand-amber)]">✦</span>
         </h2>
@@ -57,7 +57,7 @@ export function BakeryReel() {
 
       <div
         ref={stripRef}
-        className="flex gap-5 md:gap-7 overflow-x-auto snap-x snap-mandatory px-6 md:px-12 py-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+        className="flex gap-4 md:gap-7 overflow-x-auto snap-x snap-mandatory px-4 md:px-12 py-4 md:py-6 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {reels.map((reel, i) => (
           <figure

@@ -1,7 +1,7 @@
 export const heroData = {
   headline: "Artisan Bread, Baked in Pokhara",
   subheadline: "Fresh and frozen breads and pastries for hotels, cafes, and you.",
-  ctaText: "Order on WhatsApp",
+  ctaText: "Order on the App",
   image: "/sourdough-1.jpg",
 };
 
@@ -16,7 +16,7 @@ export const popularItemsData = [
     id: 9,
     name: "Multigrain Sourdough",
     description: "Flax-crusted loaves, slow-fermented the European way.",
-    image: "/bake-13.jpg",
+    image: "/multigrain-sourdough.jpg",
   },
   {
     id: 1,
@@ -32,45 +32,69 @@ export const popularItemsData = [
   },
   {
     id: 3,
-    name: "Blueberry Eclairs",
-    description: "Crisp choux piped with blueberry cream under a dark chocolate glaze.",
-    image: "/blueberry-eclairs.jpg",
+    name: "Eclairs",
+    description: "Crisp choux, silky cream, glossy dark chocolate glaze.",
+    image: "/chocolate-eclairs.jpg",
   },
   {
     id: 4,
     name: "Lemon Cream Tart",
     description: "Zesty lemon cream piped into a crisp butter shell.",
-    image: "/bake-9.jpg",
+    image: "/lemon-tart.jpg",
   },
   {
     id: 5,
     name: "Chocolate Tart",
     description: "Glazed custard tart showered with dark chocolate curls.",
-    image: "/bake-10.jpg",
+    image: "/chocolate-tart.jpg",
   },
   {
     id: 6,
     name: "Berry Cream Tart",
     description: "Berry cream petals around a heart of dark fruit compote.",
-    image: "/bake-11.jpg",
+    image: "/berry-tart.jpg",
+  },
+  {
+    id: 16,
+    name: "Blueberry Croissant",
+    description: "Buttery croissant striped with blueberry, tied up just for you.",
+    image: "/blueberry-croissant.jpg",
   },
   {
     id: 7,
     name: "Classic Croissant",
     description: "Flaky golden layers, plain or striped with chocolate.",
-    image: "/bake-12.jpg",
+    image: "/croissants.jpg",
   },
   {
     id: 8,
     name: "Pain au Chocolat",
     description: "Buttery laminated dough wrapped around dark chocolate.",
-    image: "/bake-14.jpg",
+    image: "/pain-au-chocolat.jpg",
   },
   {
     id: 10,
     name: "Rainbow Cookie",
     description: "A chunky cookie marbled with fruity marshmallow.",
-    image: "/bake-3.jpg",
+    image: "/rainbow-cookie.jpg",
+  },
+  {
+    id: 13,
+    name: "Almond Chocolate Brownie",
+    description: "Dense, fudgy brownie loaded with toasted almonds.",
+    image: "/almond-brownie.jpg",
+  },
+  {
+    id: 14,
+    name: "Strawberry Tart",
+    description: "Fresh strawberries piled on vanilla cream in a butter shell.",
+    image: "/strawberry-tart.jpg",
+  },
+  {
+    id: 15,
+    name: "Cheesecake",
+    description: "Creamy baked cheesecake with a golden caramelised top.",
+    image: "/cheesecake.jpg",
   },
 ];
 
@@ -82,13 +106,22 @@ export const varietiesData = [
   },
   {
     category: "Pastries & Viennoiserie",
-    description: "Flaky, buttery classics and sweet treats.",
-    items: ["Pain au Chocolat Croissant", "Almond Croissant", "Blueberry Eclairs", "Torsade"],
+    description: "Flaky, buttery croissants, baked fresh daily.",
+    items: [
+      "Croissants: Almond · Butter · Strawberry · Mocha · Blueberry",
+      "Pain au Chocolat",
+    ],
   },
   {
     category: "Pies, Tarts & Sweets",
-    description: "Handcrafted desserts and seasonal specials.",
-    items: ["Mulberry Pie (Seasonal)", "Mango Pie (Seasonal)", "Custard Pie", "Almond Chocolate Tart", "Almond Chocolate Brownie", "Bread Pudding"],
+    description: "Handcrafted tarts, pies, eclairs and sweet treats.",
+    items: [
+      "Eclairs: Vanilla · Mocha · Chocolate · Pistachio",
+      "Tarts: Apple · Almond Apple · Almond Chocolate · Strawberry · Almond Blueberry · Banana · Lemon · Kiwi",
+      "Whole Pies: Mango · Pineapple",
+      "Brownies: Almond Chocolate · Walnut · Chocolate · Classic",
+      "Cheesecake",
+    ],
   },
   {
     category: "Savory Bakes",
@@ -100,7 +133,7 @@ export const varietiesData = [
 export const lucData = {
   name: "Meet Luc",
   role: "Baker & Founder · From Belgium to Pokhara",
-  bio: "A Belgian citizen who found a new home in Pokhara, Luc blends the best of both worlds in everything he bakes: Belgian quality and precision — fine ingredients, herbs like thyme and tarragon, care in every detail — infused with the warm Nepali flavors of cumin and coriander he has come to love. Ingredients are sourced from local farmers wherever possible, supporting the Pokhara community and keeping everything fresh. Whether you're a local, a fellow Belgian missing a taste of home, or a traveler chasing new flavors, Breaking Bread is a place where everyone comes together — and Luc is always here to welcome you into the family.",
+  bio: "A Belgian citizen who found a new home in Pokhara, Luc blends the best of both worlds in everything he bakes: European technique and patience — slow fermentation, real butter, and care in every detail — with the warmth and hospitality of Nepal that he has come to call home. Ingredients are sourced from local farmers wherever possible, supporting the Pokhara community and keeping everything fresh. Whether you're a local, a fellow Belgian missing a taste of home, or a traveler chasing new flavors, Breaking Bread is a place where everyone comes together — and Luc is always here to welcome you into the family.",
   quote: "Namaste! I am Luc from Belgium, at your service.",
   image: "/luc-portrait.jpg",
 };

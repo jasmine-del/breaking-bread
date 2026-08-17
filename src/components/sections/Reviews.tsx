@@ -10,9 +10,9 @@ export function Reviews() {
   const next = () => setIndex((index + 1) % reviewsData.length);
 
   return (
-    <section className="w-full py-14 md:py-20 px-4">
+    <section className="w-full py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-3xl">
-        <h2 className="text-3xl md:text-4xl font-bold font-serif tracking-tight text-[var(--color-brand-choco)] text-center mb-10">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-serif tracking-tight text-[var(--color-brand-choco)] text-center mb-10">
           <span aria-hidden className="text-[var(--color-brand-orange)] text-xl align-middle mr-3">✦</span>
           Testimonials
           <span aria-hidden className="text-[var(--color-brand-orange)] text-xl align-middle ml-3">✦</span>

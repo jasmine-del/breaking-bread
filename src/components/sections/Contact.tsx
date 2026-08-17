@@ -10,9 +10,9 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="w-full py-14 md:py-20 px-4">
+    <section id="contact" className="w-full py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-3xl text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold font-serif tracking-tight text-[var(--color-brand-choco)] mb-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-serif tracking-tight text-[var(--color-brand-choco)] mb-4">
           Have Questions? Reach Out
         </h2>
         <p className="text-base md:text-lg text-[var(--color-brand-gray)]">

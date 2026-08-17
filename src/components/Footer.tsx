@@ -20,7 +20,7 @@ export function Footer() {
         <span className="inline-block bg-[var(--color-brand-bg)]/15 text-[var(--color-brand-amber)] text-xs font-bold tracking-wide px-4 py-1.5 rounded-full mb-5">
           Fresh Every Morning
         </span>
-        <h2 className="font-sans font-bold text-3xl md:text-5xl tracking-tight text-white mb-6 text-balance">
+        <h2 className="font-sans font-bold text-2xl sm:text-3xl md:text-5xl tracking-tight text-white mb-6 text-balance">
           Let&apos;s break bread, together.
         </h2>
         <p className="text-sm text-[var(--color-brand-bg)]/60 mb-2">Feel free to contact</p>
